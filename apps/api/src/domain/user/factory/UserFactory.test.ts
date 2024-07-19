@@ -1,13 +1,13 @@
 import { describe, it, expect, vi } from 'vitest'
 import { UserFactory } from './UserFactory'
 
-vi.mock('@/domain/shared/service/uuid/Uuid', () => ({
+vi.mock('@/domain/shared/service/uuid/UuidService', () => ({
   UuidService: {
     generate: vi.fn().mockReturnValue('unique-uuid'),
   },
 }))
 
-vi.mock('@/domain/shared/service/password/Password', () => ({
+vi.mock('@/domain/shared/service/password/PasswordService', () => ({
   PasswordService: {
     hash: vi.fn().mockResolvedValue('hashed-password'),
   },

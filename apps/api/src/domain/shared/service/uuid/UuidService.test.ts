@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { UuidService } from './Uuid'
+import { UuidService } from './UuidService'
 
 describe('Uuid Service', () => {
   it('should generate a valid UUID', () => {

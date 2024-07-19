@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { PasswordService } from './Password'
+import { PasswordService } from './PasswordService'
 
 describe('Password Service', () => {
   const plainPassword = 'securePassword123'

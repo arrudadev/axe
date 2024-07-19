@@ -1,5 +1,5 @@
-import { PasswordService } from '@/domain/shared/service/password/Password'
-import { UuidService } from '@/domain/shared/service/uuid/Uuid'
+import { PasswordService } from '@/domain/shared/service/password/PasswordService'
+import { UuidService } from '@/domain/shared/service/uuid/UuidService'
 import { User } from '../entity/User'
 
 export class UserFactory {
